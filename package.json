@@ -1,0 +1,21 @@
+{
+  "name": "student-management-node",
+  "version": "1.0.0",
+  "description": "Student Management System (Node.js + Express + SQLite)",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "jest --coverage"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "sequelize": "^6.37.1",
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "jest": "^30.0.0",
+    "supertest": "^7.5.0",
+    "nodemon": "^3.0.3"
+  }
+}
